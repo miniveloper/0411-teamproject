@@ -6,6 +6,7 @@
 
 body {
   font-family: "Noto Sans KR", sans-serif;
+  height: 100%;
 }
 
 h1 {
@@ -18,4 +19,78 @@ h2 {
 
 h3 {
   font-size: 24px;
+}
+
+.contact {
+  background-color: #dedede;
+  display: block;
+  height: 90%;
+}
+
+.contact-box {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 50vw;
+  height: 100%;
+}
+
+.contact-head-title {
+  margin-bottom: 20px;
+}
+
+.contact-head-desc {
+  font-size: 24px;
+}
+
+.contact-body {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  gap: 100px;
+  margin-top: 60px;
+}
+
+.contact-body-info {
+  justify-content: left;
+}
+
+.contact-body__main {
+  margin-bottom: 40px;
+}
+
+.contact__main-text {
+  margin-bottom: 15px;
+}
+
+.contact-body__location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-body__map {
+  width: 100%;
+  height: 300px;
+  margin: 50px 0 20px 0;
+}
+
+.map-img {
+  width: 100%;
+  height: 100%;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+.contact-body-form {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
 }
