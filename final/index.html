@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+		    <!-- 상단 고정바 -->
+		<a href="https://mblogthumb-phinf.pstatic.net/MjAyMDA0MDFfMjUy/MDAxNTg1NzE5NDQ3NDA5.6LomgIVr198ZEsgp5VJt_MP5aaTykyg-0NZLH-EVA3Mg.lv20z5FSxOR5-FzxFbxlKZca2HC9LjUNC_fz2YMSezcg.JPEG.anita97/1585719445607.jpg?type=w800" target="blank">
+			<header>
+				<span class="jonggang">종강까지 <span class="blink" id="dday">72</span>일이나 남았습니다🙄</span>
+				<button id="jonggang_btn" type="button">
+						종강주세요
+				</button>
+			</header>
+		</a>
+		<!-- 상단 메뉴 -->
+		<nav>
+			<div class="nav-width-box">
+				<span id="logo_img">
+					<img src="imgs/logo.png">
+				</span>
+				<div id="top_left_menu_wrap">
+					<div class="top_cornor_menu_bar">
+							<span class="top_cornor_menu_bar_btn" id="top_menu_main_btn">메인</span>
+							<span class="top_cornor_menu_bar_btn"><a href="https://wis.hufs.ac.kr/src08/jsp/lecture/LECTURE2020L.jsp" target="blank">수업찾기</a></span>
+							<span class="top_cornor_menu_bar_btn"><a href="https://www.hufs.ac.kr/user/indexSub.action?codyMenuSeq=37069&siteId=hufs&menuType=T&uId=4&sortChar=AAA&menuFrame=&linkUrl=04_0101.html&mainFrame=right" target="blank">종강찾기</a></span>
+					</div>
+					<div class="social_menu">
+						<svg onclick="window.open('https://twitter.com')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+						<svg onclick="window.open('https://facebook.com')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+						<svg onclick="window.open('https://instagram.com')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- main 1: creative corner 영역 -->
+		<section class="main_1_wrap">
+			<div class="main_wrap-box">
+				<div class="main_1_content_wrap">
+					<div id="main_1_content_slogan">
+						<div class="main-text-md"><b>Serengeti</b></div>
+						<div class="main-text-md"><img id="lion_head" src="imgs/lionhead.png"><b>IMUN</b></div>
+						<div class="main-text-sm">과제와 팀플이</div>
+						<div class="main-text-sm"><b>당신</b>을 기다립니다!!</div>
+					</div>
+					<div id="main_1_content_subslogan">
+						<span id="with_professor">교수님</span>과 함께 대학원 미래를 만들어보세요!
+					</div>
+					<div class="main_1_btn_wrap">
+						<div>
+							<a href="https://wis.hufs.ac.kr/src08/jsp/lecture/LECTURE2020L.jsp" target="blank">
+								<button class="main_1_btn" type="button">
+										수업찾기
+								</button>
+							</a>
+						</div>
+						<div>
+							<a href="https://www.hufs.ac.kr/user/indexSub.action?codyMenuSeq=37069&siteId=hufs&menuType=T&uId=4&sortChar=AAA&menuFrame=&linkUrl=04_0101.html&mainFrame=right"></a>
+								<button class="main_1_btn" type="button">
+									종강찾기
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+
+		<!-- About -->
+		<section class="about">
+			<h2 class="about-us">ABOUT US</h2>
+
+			<div class="info-member">
+				<div class="intro">세렝게티 이문의 학생들을 소개합니다! </div>
+
+				<div class="photo">
+					<div class="member member1">
+						<img src="imgs/Lion.png" />
+						<p><b>Likelion</b><br />팀장</p>
+					</div>
+					<div class="member member2">
+						<img src="imgs/Gonnie.png" />
+						<p><b>Gonnie</b><br />팀원</p>
+					</div>
+					<div class="member member3">
+						<img src="imgs/zebra.png" />
+						<p><b>Zebra</b><br />팀원</p>
+					</div>
+					<div class="member member4">
+						<img src="imgs/giraffe.jpg" />
+						<p><b>Girin</b><br />팀원</p>
+					</div>
+					<div class="member member5">
+						<img src="imgs/fennec fox.jpg" />
+						<p><b>Fennec Fox</b><br />팀원</p>
+					</div>
+					<div class="member member6">
+						<img src="imgs/sudal.jpg" />
+						<p><b>Sudal</b><br />팀원</p>
+					</div>
+				</div>
+			
+	
+			</div>
+		
+		  <div class="text">
+				<div class="text-box box1">
+					한국외국어대학교는 1954년 개교한 이래 대한민국의 성장과 발전에 필요한 수많은 인재를 배출한 사학 명문대학입니다.
+		 		  동시에 국내 최초의 글로벌 대학으로서 진리, 평화, 창조라는 건학정신에 입각, 전쟁의 상흔이 채 가시지도 않은 우리나라의 재건과 성장발전에 큰 원동력이 되었습니다. 
+		 		  자원 빈국인 대한민국이 불과 반세기 만에 세계적 경제 대국으로 거듭날 수 있었던 것은 우리 대학이 교육한 수많은 국제화된 인재들의 노력과 헌신이 있었기 때문입니다. 
+				</div>
+			
+			  <div class="text-box box2">
+					한국외국어대학교는 국가와 사회가 요구하는 최고 수준의 시대적 인재를 육성하고 대한민국의 국제화를 선도하는 역할을 충실히 해오고 있는 ‘해가 지지 않는 대학’입니다.
+		  		공공재인 대학의 존재 이유와 책무는 시대와 사회가 필요로 하는 인재를 양성하여 국가와 국제사회의 평화와 공존을 증진하는 것입니다. 
+		  		우리 대학은 다양한 첨단융합교육을 학생들에게 제공해 우리 학생들이 현대사회가 요구하는 경쟁력 있는 국제화된 인재가 되도록 만들 것입니다.
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+    <section class="contact">
+      <div class="contact-box">
+        <article class="contact-head">
+          <h1 class="contact-head-title">CONTACT</h1>
+          <p class="contact-head-desc">정문과 후문, 단 5분의 기적</p>
+        </article>
+        <article class="contact-body">
+          <div class="contact-body-info">
+            <div class="contact-body__main">
+              <p class="contact__main-text contact-email">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"
+                  />
+                </svg>
+                roar@imun.com
+              </p>
+              <p class="contact__main-text contact-call">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M304 0h-224c-35.35 0-64 28.65-64 64v384c0 35.35 28.65 64 64 64h224c35.35 0 64-28.65 64-64V64C368 28.65 339.3 0 304 0zM192 480c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S209.8 480 192 480zM304 64v320h-224V64H304z"
+                  />
+                </svg>
+                02-2173-2114
+              </p>
+            </div>
+            <div class="contact-body__location">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"
+                />
+              </svg>
+              <div class="contact__location-info">
+                <p class="contact__location-text">서울특별시 동대문구 이문동</p>
+                <p class="contact__location-text">270-1</p>
+              </div>
+            </div>
+            <div class="contact-body__map">
+              <img class="map-img" src="imgs/hufs.jpg" alt="" />
+            </div>
+          </div>
+          <div class="contact-body-form">
+            <div class="contact-form-wrap">
+              <h3 class="contact-form-title">외대를 만나면 세계가 보인다.</h3>
+              <div class="contact-form-box">
+                <form class="contact-form contact-form-hanguel">
+                  <div class="contact-form-inputs">
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="e-mail" />
+                    <input type="tel" placeholder="phone-number" />
+                  </div>
+                  <textarea placeholder="메세지를 입력하세요."></textarea>
+                </form>
+                <button class="contact-form-btn">SUBMIT</button>
+              </div>
+            </div>
+
+            <div class="contact-form-wrap">
+              <h3 class="contact-form-title">Come to hufs, Meet the world</h3>
+              <div class="contact-form-box">
+                <form class="contact-form contact-form-hanguel">
+                  <div class="contact-form-inputs">
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="e-mail" />
+                    <input type="tel" placeholder="phone-number" />
+                  </div>
+                  <textarea placeholder="메세지를 입력하세요."></textarea>
+                </form>
+                <button class="contact-form-btn">SUBMIT</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-wrap">
+        <div class="footer-copyright">
+          Copyrights ©Serengeti Imun. All rights reserved.
+          <img src="imgs/lionhead.png" alt="" />
+        </div>
+        <div class="footer-location">
+          <a href="#">roar@imun.com </a>&nbsp;| 서울특별시 동대문구 이문동 270-1
+          <span class="footer-social_menu">
+            <svg
+              onclick="window.open('https://twitter.com')"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+              />
+            </svg>
+            <svg
+              onclick="window.open('https://facebook.com')"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512"
+            >
+              <path
+                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+              />
+            </svg>
+            <svg
+              onclick="window.open('https://instagram.com')"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
