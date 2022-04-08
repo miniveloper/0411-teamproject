@@ -248,6 +248,51 @@ nav {
   color: white;
 }
 
+/* ICONS */
+.icons {
+  height: 50vh;
+  background-color: #dedede;
+}
+
+.container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.icon-box {
+  text-align: center;
+}
+
+.img-box {
+  background-color: #fff;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.icon-box b {
+  display: block;
+  font-size: 16px;
+  color: #d35d57;
+}
+
+.icon-box p {
+  font-size: 14px;
+}
+
 /* ABOUT STYLE */
 
 .about {
@@ -280,6 +325,7 @@ nav {
 .photo img {
   width: 150px;
   height: 150px;
+  border-radius: 3px;
 }
 
 .member p {
