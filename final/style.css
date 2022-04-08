@@ -535,9 +535,14 @@ svg:last-child {
 }
 
 .contact-form textarea {
-  padding-top: 14px;
+  padding-top: 10px;
   padding-left: 8px;
   border: 1px solid transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .contact-form-btn {
