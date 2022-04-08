@@ -65,7 +65,8 @@ header:hover {
 }
 
 header:hover #jonggang_btn {
-  background-color: #fff;
+  background-color: #edc34b;
+  color: rgb(41, 41, 41);
   cursor: pointer;
 }
 
